@@ -1,0 +1,78 @@
+.evaluator-dashboard {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: #121212;
+  color: #f1f1f1;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.dashboard-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.left-section {
+  flex: 2;
+}
+
+.right-section {
+  flex: 1;
+  background-color: #1e1e1e;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 255, 200, 0.2);
+}
+
+.tender-card {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: #1a1a1a;
+  border-left: 4px solid #00ffcc;
+  border-radius: 8px;
+}
+
+.bid-row {
+  margin-bottom: 0.75rem;
+}
+
+.bid-row input {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  padding: 0.3rem;
+  width: 60px;
+  background: #2a2a2a;
+  border: 1px solid #444;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.bid-row button {
+  background-color: #00ffcc;
+  border: none;
+  padding: 0.3rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #000;
+}
+
+.ranking-box {
+  background-color: #222;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+.ranking-box h3 {
+  color: #ffcc00;
+  margin-bottom: 0.5rem;
+}
+
+.ranking-box ol {
+  padding-left: 1rem;
+}
+
+.ranking-box li {
+  margin-bottom: 0.5rem;
+}

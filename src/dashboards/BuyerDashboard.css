@@ -1,0 +1,105 @@
+/* BuyerDashboard.css - Dark Theme */
+
+.buyer-dashboard {
+  background-color: #1e1e2f;
+  color: #f1f1f1;
+  padding: 2rem;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.buyer-dashboard h1,
+.buyer-dashboard h2 {
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.buyer-dashboard form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #2c2c3e;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  margin-bottom: 2rem;
+}
+
+.buyer-dashboard input,
+.buyer-dashboard textarea {
+  background-color: #3b3b4f;
+  color: #ffffff;
+  border: 1px solid #555;
+  border-radius: 5px;
+  padding: 0.8rem;
+  font-size: 1rem;
+}
+
+.buyer-dashboard button {
+  background-color: #5e60ce;
+  color: white;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.buyer-dashboard button:hover {
+  background-color: #4e51b5;
+}
+
+.buyer-dashboard ul {
+  list-style: none;
+  padding: 0;
+}
+
+.buyer-dashboard li {
+  background-color: #2c2c3e;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  border-left: 4px solid #5e60ce;
+}
+
+.tender-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.buyer-dashboard form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+
+.status-label {
+  background-color: #444;
+  padding: 0.5rem 1rem;
+  margin-top: 15px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  width: fit-content;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  white-space: nowrap;
+}
+
+
+.status-label.waiting-for-approval {
+  background-color: #e9ba00;
+  color: #000;
+}
+
+.status-label.approved {
+  background-color: #28a745;
+}
+
+.status-label.rejected {
+  background-color: #dc3545;
+}
